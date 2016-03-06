@@ -40,4 +40,4 @@ Change the defaultalbumart in the script to an image/ logo relevant to your site
 
 See an example at http://www.victoriancarolsingershire.uk/.
 
-![yahoo media player bar](https://github.com/hyweljohnllewellyn/yahoomediaplayer/yahoomediaplayer.png)
+![yahoo media player bar](https://github.com/hyweljohnllewellyn/yahoomediaplayer/blob/master/yahoomediascreenshot.png)
