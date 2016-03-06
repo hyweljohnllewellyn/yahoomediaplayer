@@ -38,4 +38,6 @@ Change the defaultalbumart in the script to an image/ logo relevant to your site
 
 ### Any mp3 audio on your site will now have play icons and a nifty sidebar...
 
+See an example at http://www.victoriancarolsingershire.uk/.
+
 ![yahoo media player bar]({{https://github.com/hyweljohnllewellyn/yahoomediaplayer/yahoomediaplayer.png)
