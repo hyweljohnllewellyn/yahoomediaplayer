@@ -4,9 +4,9 @@ A version of the yahoo media / web player that can be embedded to play media, in
 
 ## Basic Usage
 
-### Add the yahoomedia folder from this to where your sites  js files are located
+### 1 Add the yahoomedia folder in this repository to your sites relevant js folder 
 
-### Add the following to pages that have mp3 files on your site
+### 2 Add the following to pages that have mp3 files on your site
 
 ```javascript
 <script >
@@ -18,13 +18,13 @@ var YMPParams = { autoplay:false,volume:1, assetsroot: '{{ site.url }}/assets/js
 
 Note that you should change the assetroot to where the js file is located.
 
-### Update the branding
+### 3 Update the branding
 
 Change the branding-dark-theme.png in the yahoomedia/img folder to one relevant to your site.
 
 Change the defaultalbumart in the script to an image/ logo relevant to your site.
 
-### Add a href tags to your mp3 files on your site, for example
+### 4 Add a href tags to your mp3 files on your site, for example
 
 ```html
 <a href="{{ site.url }}/audio/joy to the world.mp3">Joy to the World</a>
@@ -36,7 +36,7 @@ Change the defaultalbumart in the script to an image/ logo relevant to your site
 <a href="{{ site.url }}/audio/deck the halls.mp3">Deck the Halls</a>
 ```
 
-### Any mp3 audio on your site will now have play icons and a useful sidebar...
+### 5 Any mp3 audio on your site will now have play icons and a useful sidebar...
 
 See an example at http://www.victoriancarolsingershire.uk/.
 
