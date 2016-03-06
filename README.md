@@ -8,13 +8,13 @@ A version of the yahoo media / web player that can be embedded to play media, in
 
 ### Add the following to pages that have mp3 files on your site
 
-'''javascript
+```javascript
 <script >
 var YMPParams = { autoplay:false,volume:1, assetsroot: '{{ site.url }}/assets/js/yahoomedia', defaultalbumart:"{{ site.url }}/images/victorian_carol_singers_silouette_32.png" };
 </script>
 
 <script  src="{{ site.url }}/assets/js/yahoomedia/music-player.min.js"></script>
-'''
+```
 
 Note that you should change the assetroot to where the js file is located.
 
@@ -26,7 +26,7 @@ Change the defaultalbumart in the script to an image/ logo relevant to your site
 
 ### Add a href tags to your mp3 files on your site, for example
 
-'''html
+```html
 <a href="{{ site.url }}/audio/joy to the world.mp3">Joy to the World</a>
 <br>
 <a href="{{ site.url }}/audio/jingle bells.mp3">Jingle Bells</a>
@@ -34,7 +34,7 @@ Change the defaultalbumart in the script to an image/ logo relevant to your site
 <a href="{{ site.url }}/audio/silent night short.mp3">Silent Night</a>
 <br>
 <a href="{{ site.url }}/audio/deck the halls.mp3">Deck the Halls</a>
-'''
+```
 
 ### Any mp3 audio on your site will now have play icons and a nifty sidebar...
 
